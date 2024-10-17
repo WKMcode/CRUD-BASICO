@@ -1,0 +1,68 @@
+		O QUE MUDOU?
+
+Atualização do Laravel:
+	O código foi atualizado para Laravel 11.(Versão anterior = Laravel 7)
+isso trás diversas melhorias e mudanças na estrutura e funcionalidades do Framework.
+
+Dependências Atualizadas:
+	Com a atualização do Composer, todas as Dependências e pacotes foram atualizados para versões mais recentes, garantindo maior segurança e performance.
+
+
+
+Como realizei as Adequações ---
+	Ajustei o arquivo "composer.json" para garantir que a versão mais recente do Laravel fosse utilizada. "laravel/framework": "^11.0"
+
+	Instalação das Dependências:
+		Com o comando "composer install", eu garanti que todas as dependências 	necessárias fossem instaladas corretamente, criando a pasta "vendor".
+
+Ajustes de Arquivos de Configuração ---
+	Os arquivos de configuração foram verificados e ajustados conforme necessário.
+	Alteração no ".env" e "config/app.php" foram feitas para garantir a compatibilidade com a nova versão do Laravel.
+
+Testes e Verificação ---
+	Testei o sistema e não encontrei nenhum erro, realizei todos os testes possíveis pra assegurar a funcionalidade, Identifiquei e corrigir problemas no meio do processo dessa atividade.
+
+
+		Blades no Laravel
+
+Blades: Blades são o sistema de templates do Laravel. Eles permitem a criação de layouts reutilizáveis e dinâmicos, facilitando a construção de views. Com Blades, você pode criar componentes e seções que podem ser incluídos em várias páginas, mantendo seu código limpo e organizado.
+
+Comandos para criar Migrations e Controllers:
+
+Migrations: Utilizadas para criar e gerenciar a estrutura do banco de dados. O comando para criar uma migration é: "php artisan make:migration nome_da_migration"
+
+Controllers: Responsáveis por controlar a lógica de negócios e interagir com as views e models. O comando para criar um controller é: "php artisan make:controller NomeDoController"
+
+
+
+Processo de Criação de Cada Etapa:
+
+Migration: Criar a migration, definir a estrutura das tabelas e rodar a migration para atualizar o banco de dados.
+
+Model: Criar o model para representar as tabelas do banco de dados.
+
+Controller: Criar o controller para gerenciar a lógica de negócios e definir os métodos CRUD (Create, Read, Update, Delete).
+
+View: Criar as views utilizando Blades para exibir os dados e interagir com os usuários.
+
+CRUD (Create, Read, Update, Delete):
+
+Create: Criar novos registros no banco de dados.
+
+Read: Ler e exibir registros do banco de dados.
+
+Update: Atualizar registros existentes no banco de dados.
+
+Delete: Excluir registros do banco de dados.
+
+Pasta Vendor: A pasta vendor é onde o Composer instala todas as dependências do seu projeto. Ela contém todos os pacotes e bibliotecas que seu projeto utiliza, garantindo que todas as dependências estejam disponíveis para o Laravel e outras partes do seu aplicativo.
+
+
+
+
+
+
+
+
+
+
